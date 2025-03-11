@@ -1,0 +1,6 @@
+Basicamente instalacao as ferramentas para o curso como:
+
+JDK-21
+IntelliJIDE
+Postman
+Docker
