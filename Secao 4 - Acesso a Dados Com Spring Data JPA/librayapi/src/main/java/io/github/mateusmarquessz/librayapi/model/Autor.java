@@ -31,6 +31,6 @@ public class Autor {
     @Column(name = "nacionalidade", length = 50, nullable = false)
     private String nacionalidade;
 
-    @OneToMany // Ta referenciando livros sendo 1 autor para muitos livros
+    @OneToMany(mappedBy = "autor")//mappedBy falando que nao eh uma coluna // Ta referenciando livros sendo 1 autor para muitos livros
     private List<Livro> livros;
 }
